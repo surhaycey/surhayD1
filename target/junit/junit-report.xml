@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.536">
-    <testcase classname="Unknown" name="_2" time="19.352">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="12.892">
+    <testcase classname="Unknown" name="_2" time="9.486">
         <system-out>
             <![CDATA[When user searches for surhay...............................................passed
 ]]>
         </system-out>
+    </testcase>
+    <testcase classname="Unknown" name="_3" time="3.207">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[When user searches for surhay...............................................passed
+And test fails..............................................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.fail(Assert.java:96)
+	at stepDefs.simpleSearch.test_fails(simpleSearch.java:24)
+	at ✽.test fails(file:///C:/Users/surha/Documents/GitHub/surhayD1/src/test/resources/features/simpleSearch.feature:9)
+]]>
+        </failure>
     </testcase>
 </testsuite>

@@ -1,6 +1,7 @@
 package stepDefs;
 
 import io.cucumber.java.en.When;
+import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import pages.googleMain;
 import utils.driver;
@@ -16,6 +17,11 @@ public class simpleSearch {
 
         gMain.searchBox.sendKeys("surhay"+ Keys.ENTER);
 
+    }
+
+    @When("test fails")
+    public void test_fails() {
+        Assert.fail();
     }
 
 }
