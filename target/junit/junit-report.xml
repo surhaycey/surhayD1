@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="19.536">
+    <testcase classname="Unknown" name="_2" time="19.352">
+        <system-out>
+            <![CDATA[When user searches for surhay...............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
