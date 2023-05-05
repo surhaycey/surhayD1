@@ -6,6 +6,8 @@ import org.openqa.selenium.Keys;
 import pages.googleMain;
 import utils.driver;
 
+import java.sql.Driver;
+
 public class simpleSearch {
 
     googleMain gMain=new googleMain();
@@ -23,5 +25,11 @@ public class simpleSearch {
     public void test_fails() {
         Assert.fail();
     }
+
+    @When("user can see surhay on the title")
+    public void user_can_see_surhay_on_the_title() {
+       Assert.assertTrue( driver.getDriver().getTitle().startsWith("surhay"));
+    }
+
 
 }
